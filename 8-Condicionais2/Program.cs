@@ -1,5 +1,7 @@
 ﻿//operador OU ||
 //operador E &&
+//operador IGUALDADE ==
+//
 
 using System;
 using System.Collections.Generic;
@@ -15,10 +17,13 @@ namespace _8_Condicionais2
         {
             Console.WriteLine("Executando o projeto 8 - Condicionais 2 ");
 
-            int idadeJoao = 10;
-            int quantidadePessoas = 3;
+            int idadeJoao = 20;
+            //int quantidadePessoas = 1;
+            //bool acompanhado = quantidadePessoas >= 2;
+
+            bool acompanhado = true;
                         
-            if (idadeJoao >= 18 || quantidadePessoas >= 2)
+            if (idadeJoao >= 18 && acompanhado == true)
             {
                 Console.WriteLine("Pode entrar.");
             }
