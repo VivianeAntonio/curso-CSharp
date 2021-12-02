@@ -1,8 +1,0 @@
-D:\MeusProjetos\curso-CSharp\7-Condicionais\bin\Debug\7-Condicionais.exe.config
-D:\MeusProjetos\curso-CSharp\7-Condicionais\bin\Debug\7-Condicionais.exe
-D:\MeusProjetos\curso-CSharp\7-Condicionais\bin\Debug\7-Condicionais.pdb
-D:\MeusProjetos\curso-CSharp\7-Condicionais\obj\Debug\7-Condicionais.csproj.AssemblyReference.cache
-D:\MeusProjetos\curso-CSharp\7-Condicionais\obj\Debug\7-Condicionais.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\7-Condicionais\obj\Debug\7-Condicionais.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\7-Condicionais\obj\Debug\7-Condicionais.exe
-D:\MeusProjetos\curso-CSharp\7-Condicionais\obj\Debug\7-Condicionais.pdb

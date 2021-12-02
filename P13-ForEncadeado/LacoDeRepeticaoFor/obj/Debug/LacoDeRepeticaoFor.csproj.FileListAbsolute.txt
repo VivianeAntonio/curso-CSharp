@@ -1,8 +1,0 @@
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\bin\Debug\LacoDeRepeticaoFor.exe.config
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\bin\Debug\LacoDeRepeticaoFor.exe
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\bin\Debug\LacoDeRepeticaoFor.pdb
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.csproj.AssemblyReference.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.exe
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\LacoDeRepeticaoFor\obj\Debug\LacoDeRepeticaoFor.pdb

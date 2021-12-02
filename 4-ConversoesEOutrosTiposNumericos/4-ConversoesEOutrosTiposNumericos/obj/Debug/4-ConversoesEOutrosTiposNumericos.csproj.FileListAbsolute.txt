@@ -1,8 +1,0 @@
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\bin\Debug\4-ConversoesEOutrosTiposNumericos.exe.config
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\bin\Debug\4-ConversoesEOutrosTiposNumericos.exe
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\bin\Debug\4-ConversoesEOutrosTiposNumericos.pdb
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\obj\Debug\4-ConversoesEOutrosTiposNumericos.csproj.AssemblyReference.cache
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\obj\Debug\4-ConversoesEOutrosTiposNumericos.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\obj\Debug\4-ConversoesEOutrosTiposNumericos.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\obj\Debug\4-ConversoesEOutrosTiposNumericos.exe
-D:\MeusProjetos\curso-CSharp\4-ConversoesEOutrosTiposNumericos\4-ConversoesEOutrosTiposNumericos\obj\Debug\4-ConversoesEOutrosTiposNumericos.pdb
