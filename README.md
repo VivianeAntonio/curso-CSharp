@@ -1,7 +1,6 @@
 # Curso C#
  ## ✨ Bem vindo (a), ao meu repósitório de estudos da linguagem C# ✨
  
-#
 
 Como ferramentas estou utilizando:
 * Visual Studio 
