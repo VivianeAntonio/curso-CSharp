@@ -1,8 +1,0 @@
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\bin\Debug\TreinandoWhileEFor.exe.config
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\bin\Debug\TreinandoWhileEFor.exe
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\bin\Debug\TreinandoWhileEFor.pdb
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\obj\Debug\TreinandoWhileEFor.csproj.AssemblyReference.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\obj\Debug\TreinandoWhileEFor.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\obj\Debug\TreinandoWhileEFor.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\obj\Debug\TreinandoWhileEFor.exe
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\TreinandoWhileEFor\obj\Debug\TreinandoWhileEFor.pdb

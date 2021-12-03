@@ -1,7 +1,0 @@
-D:\MeusProjetos\curso-CSharp\7-Condicionais\TestandoCondicionais\bin\Debug\TestandoCondicionais.exe.config
-D:\MeusProjetos\curso-CSharp\7-Condicionais\TestandoCondicionais\bin\Debug\TestandoCondicionais.exe
-D:\MeusProjetos\curso-CSharp\7-Condicionais\TestandoCondicionais\bin\Debug\TestandoCondicionais.pdb
-D:\MeusProjetos\curso-CSharp\7-Condicionais\TestandoCondicionais\obj\Debug\TestandoCondicionais.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\7-Condicionais\TestandoCondicionais\obj\Debug\TestandoCondicionais.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\7-Condicionais\TestandoCondicionais\obj\Debug\TestandoCondicionais.exe
-D:\MeusProjetos\curso-CSharp\7-Condicionais\TestandoCondicionais\obj\Debug\TestandoCondicionais.pdb

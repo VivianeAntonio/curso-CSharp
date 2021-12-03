@@ -1,8 +1,0 @@
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\bin\Debug\3-CriandoVariaveisPontoFlutuante.exe.config
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\bin\Debug\3-CriandoVariaveisPontoFlutuante.exe
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\bin\Debug\3-CriandoVariaveisPontoFlutuante.pdb
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\obj\Debug\3-CriandoVariaveisPontoFlutuante.csproj.AssemblyReference.cache
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\obj\Debug\3-CriandoVariaveisPontoFlutuante.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\obj\Debug\3-CriandoVariaveisPontoFlutuante.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\obj\Debug\3-CriandoVariaveisPontoFlutuante.exe
-D:\MeusProjetos\curso-CSharp\3-CriandoVariaveisPontoFlutuante\3-CriandoVariaveisPontoFlutuante\obj\Debug\3-CriandoVariaveisPontoFlutuante.pdb

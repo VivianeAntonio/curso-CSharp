@@ -1,8 +1,0 @@
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\bin\Debug\P11-CalculaPoupanca2.exe.config
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\bin\Debug\P11-CalculaPoupanca2.exe
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\bin\Debug\P11-CalculaPoupanca2.pdb
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.csproj.AssemblyReference.cache
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.exe
-D:\MeusProjetos\curso-CSharp\P11-CalculaPoupanca2\obj\Debug\P11-CalculaPoupanca2.pdb

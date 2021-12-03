@@ -1,8 +1,0 @@
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\bin\Debug\P13-ForEncadeado.exe.config
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\bin\Debug\P13-ForEncadeado.exe
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\bin\Debug\P13-ForEncadeado.pdb
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\obj\Debug\P13-ForEncadeado.csproj.AssemblyReference.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\obj\Debug\P13-ForEncadeado.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\obj\Debug\P13-ForEncadeado.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\obj\Debug\P13-ForEncadeado.exe
-D:\MeusProjetos\curso-CSharp\P13-ForEncadeado\obj\Debug\P13-ForEncadeado.pdb

@@ -1,7 +1,0 @@
-D:\MeusProjetos\curso-CSharp\5-CaracteresETextos\PraticandoCaracteresETextos\PraticandoCaracteresETextos\bin\Debug\PraticandoCaracteresETextos.exe.config
-D:\MeusProjetos\curso-CSharp\5-CaracteresETextos\PraticandoCaracteresETextos\PraticandoCaracteresETextos\bin\Debug\PraticandoCaracteresETextos.exe
-D:\MeusProjetos\curso-CSharp\5-CaracteresETextos\PraticandoCaracteresETextos\PraticandoCaracteresETextos\bin\Debug\PraticandoCaracteresETextos.pdb
-D:\MeusProjetos\curso-CSharp\5-CaracteresETextos\PraticandoCaracteresETextos\PraticandoCaracteresETextos\obj\Debug\PraticandoCaracteresETextos.csproj.SuggestedBindingRedirects.cache
-D:\MeusProjetos\curso-CSharp\5-CaracteresETextos\PraticandoCaracteresETextos\PraticandoCaracteresETextos\obj\Debug\PraticandoCaracteresETextos.csproj.CoreCompileInputs.cache
-D:\MeusProjetos\curso-CSharp\5-CaracteresETextos\PraticandoCaracteresETextos\PraticandoCaracteresETextos\obj\Debug\PraticandoCaracteresETextos.exe
-D:\MeusProjetos\curso-CSharp\5-CaracteresETextos\PraticandoCaracteresETextos\PraticandoCaracteresETextos\obj\Debug\PraticandoCaracteresETextos.pdb
