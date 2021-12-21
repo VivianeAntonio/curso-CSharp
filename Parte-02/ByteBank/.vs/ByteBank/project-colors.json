@@ -45,7 +45,12 @@
       "ProjectGuid": "3a2635ec-c6b4-461d-b319-5ddcfca6b0fc",
       "DisplayName": "06-ByteBank",
       "ColorIndex": 7
+    },
+    "d1c82ca1-f202-41a8-b8c7-65682ca186f3": {
+      "ProjectGuid": "d1c82ca1-f202-41a8-b8c7-65682ca186f3",
+      "DisplayName": "07-ByteBank",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }
