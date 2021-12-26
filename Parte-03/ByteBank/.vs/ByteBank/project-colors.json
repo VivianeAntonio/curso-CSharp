@@ -5,7 +5,12 @@
       "ProjectGuid": "9bd9a2f3-70d7-4372-bbb6-2cd3309b9256",
       "DisplayName": "ByteBank",
       "ColorIndex": 0
+    },
+    "b8d52608-ad67-451a-bf78-38bc04aeaba5": {
+      "ProjectGuid": "b8d52608-ad67-451a-bf78-38bc04aeaba5",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

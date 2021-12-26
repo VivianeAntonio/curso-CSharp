@@ -20,6 +20,9 @@ namespace ByteBank
 
             gerenciador.Registrar(carlos);
 
+            //Funcionario pedro = new Diretor();  é um código válido : Diretor é um Funcionário
+
+
             Diretor roberta = new Diretor();
             roberta.Nome = "Roberta";
             roberta.CPF = "263.512.248-6";
