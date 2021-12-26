@@ -13,20 +13,31 @@ namespace ByteBank
         {
             GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-            Funcionario carlos = new Funcionario();
+            Funcionario carlos = new Funcionario(2000, "541.698.854-20");
             carlos.Nome = "Carlos";
-            carlos.CPF = " 541.698.854-20";
-            carlos.Salario = 2000;
+
+            carlos.AumentarSalario();
+            Console.WriteLine("Novo salário do Carlos: " + carlos.Salario);
+
+            Console.WriteLine(Funcionario.TotalDeFuncionarios);
 
             gerenciador.Registrar(carlos);
 
             //Funcionario pedro = new Diretor();  é um código válido : Diretor é um Funcionário
 
 
-            Diretor roberta = new Diretor();
+            Diretor roberta = new Diretor("263.512.248-6");
             roberta.Nome = "Roberta";
-            roberta.CPF = "263.512.248-6";
-            roberta.Salario = 5000;
+
+            Console.WriteLine(Funcionario.TotalDeFuncionarios);
+
+            Funcionario robertaTeste = roberta;
+
+            roberta.AumentarSalario();
+            Console.WriteLine("Novo salário de Roberta: " + roberta.Salario); 
+
+            Console.WriteLine("Bonificação de uma referência de Diretor: " + roberta.GetBonificacao());
+            Console.WriteLine("Bonificação de uma referência de Funcionário: " + robertaTeste.GetBonificacao());
 
             gerenciador.Registrar(roberta);
 

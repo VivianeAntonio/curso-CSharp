@@ -6,23 +6,21 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    //Herança usando : diretor herda propriedades da classe funcionario
-    public class Diretor : Funcionario
+    public class GerenteDeConta : Funcionario
     {
-        public Diretor(string cpf) : base(5000, cpf)
+        public GerenteDeConta(string cpf) : base(4000, cpf)
         {
-            Console.WriteLine("Criando Diretor");
+
         }
 
         public override void AumentarSalario()
         {
-            Salario *= 1.15;
+            Salario *= 1.05;
         }
 
         public override double GetBonificacao()
-        {            
-            return Salario * 0.5;
+        {
+            return Salario * 0.25;
         }
-
     }
 }
