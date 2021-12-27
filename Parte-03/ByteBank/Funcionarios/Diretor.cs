@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ByteBank.Funcionarios
 {
     //Herança usando : 
-    public class Diretor : Autenticavel
+    public class Diretor : FuncionarioAutenticavel
     {
         public Diretor(string cpf) : base(5000, cpf)
         {
