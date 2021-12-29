@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBank
+namespace Exercicio01
 {
     public class ContaCorrente
     {
@@ -50,7 +50,7 @@ namespace ByteBank
                 _saldo = value;
             }
         }
-       
+
         public ContaCorrente(int agencia, int numero)
         {
             Agencia = agencia;
