@@ -10,6 +10,9 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+            ContaCorrente conta = new ContaCorrente(545, 788526);
+            
+
             try
             {
                 Metodo();
@@ -23,8 +26,12 @@ namespace ByteBank
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.StackTrace);
                 Console.WriteLine("Aconteceu um erro!");
-            }
-            
+            } 
+
+
+            Metodo();
+
+            Console.WriteLine("Execução finalizada. Tecle enter para sair.");
             Console.ReadLine();
         }
 

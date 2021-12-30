@@ -11,24 +11,9 @@ namespace ByteBank
         public static double TaxaOperacao { get; private set; }
         public Cliente Titular { get; set; }
         public static int TotalDeContasCriadas { get; private set; }
-
-        private int _agencia;
-        public int Agencia
-        {
-            get
-            {
-                return _agencia;
-            }
-            set
-            {
-                if (value <= 0)
-                {
-                    return;
-                }
-                _agencia = value;
-            }
-        }
-        public int Numero { get; set; }
+       
+        public int Agencia { get; } //somente leitura
+        public int Numero { get; } //somente leitura
 
         private double _saldo = 100;
 
