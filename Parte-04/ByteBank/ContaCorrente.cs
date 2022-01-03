@@ -11,6 +11,9 @@ namespace ByteBank
         public static double TaxaOperacao { get; private set; }
         public Cliente Titular { get; set; }
         public static int TotalDeContasCriadas { get; private set; }
+
+        public int ContadorSaquesNaoPermitidos { get; private set; }
+        public int ContadorTransferenciasNaoPermitidas { get; private set; }
        
         public int Agencia { get; } //somente leitura
         public int Numero { get; } //somente leitura
@@ -63,6 +66,7 @@ namespace ByteBank
 
             if (_saldo < valor)
             {
+                ContadorSaquesNaoPermitidos++;
                 throw new SaldoInsuficienteException(_saldo, valor);
             }
             _saldo -= valor;
@@ -81,7 +85,16 @@ namespace ByteBank
                 throw new ArgumentException("Valor invalido para a transferencia.", nameof(valor));
             }
 
-            Sacar(valor);
+            try
+            {
+                Sacar(valor);
+            }
+            catch(SaldoInsuficienteException)
+            {
+                ContadorTransferenciasNaoPermitidas++;
+                throw;
+            }
+
             contaDestino.Depositar(valor);
         }
     }
