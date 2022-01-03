@@ -12,43 +12,21 @@ namespace ByteBank
         {
             try
             {
-                ContaCorrente conta = new ContaCorrente(156, 15750);
-                ContaCorrente conta2 = new ContaCorrente(156,56842);
+                ContaCorrente conta1 = new ContaCorrente(452, 54875);
+                ContaCorrente conta2 = new ContaCorrente(575, 36447);
 
-                conta2.Transferir(10000, conta);
-
-                conta.Depositar(50);
-                Console.WriteLine(conta.Saldo);
-                conta.Sacar(-500);
-                Console.WriteLine(conta.Saldo);
-
+                //conta1.Transferir(100000, conta2);
+                conta1.Sacar(100000);
             }
-            catch (ArgumentException ex)
+            catch (OperacaoFinanceiraException e)
             {
-                if(ex.ParamName == "numero")
-                {
+                Console.WriteLine(e.Message);
+                Console.WriteLine(e.StackTrace);
 
-                }
-
-                Console.WriteLine("Argumento com problema: " + ex.ParamName);
-                Console.WriteLine("Ocorreu uma excecao do tipo ArgumentException");
-                Console.WriteLine(ex.Message);
+                //Console.WriteLine("Informacoes da INNER EXCEPTION (execao interna)");
+                //Console.WriteLine(e.InnerException.Message);
+                //Console.WriteLine(e.InnerException.StackTrace);
             }
-            catch(SaldoInsuficienteException ex)
-            {
-                Console.WriteLine(ex.Saldo);
-                Console.WriteLine(ex.ValorSaque);
-                Console.WriteLine(ex.StackTrace);
-
-                Console.WriteLine(ex.Message);
-                Console.WriteLine("Excecao do tipo SaldoInsuficienteException");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            
-            //Metodo();
 
             Console.WriteLine("Execução finalizada. Tecle enter para sair.");
             Console.ReadLine();
