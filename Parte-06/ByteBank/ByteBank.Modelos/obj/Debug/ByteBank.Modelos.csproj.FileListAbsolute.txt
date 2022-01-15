@@ -1,0 +1,7 @@
+D:\MeusProjetos\curso-CSharp\Parte-05\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+D:\MeusProjetos\curso-CSharp\Parte-05\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+D:\MeusProjetos\curso-CSharp\Parte-05\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+D:\MeusProjetos\curso-CSharp\Parte-05\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+D:\MeusProjetos\curso-CSharp\Parte-05\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
+D:\MeusProjetos\curso-CSharp\Parte-05\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml
+D:\MeusProjetos\curso-CSharp\Parte-05\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.AssemblyReference.cache
