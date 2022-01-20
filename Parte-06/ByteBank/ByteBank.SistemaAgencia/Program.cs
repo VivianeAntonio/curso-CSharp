@@ -13,27 +13,50 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-
-            String texto = "Gustavo_Silva";
-
-            if (string.IsNullOrEmpty(texto))
-            {
-                Console.WriteLine("String vazia");
-            }
-
-            Int32 indice2 = texto.IndexOf("Gustavo");
-            String texto2 = texto.Substring(indice2 + 1);
-
-            Console.WriteLine("Tamanho: " + texto.Length);
-            Console.WriteLine("Indice: " + indice2);
-            Console.WriteLine(texto2);
+            string teste2 = "PALAVRA";
+            Console.WriteLine(teste2.IndexOf("Ra"));
             Console.ReadLine();
 
 
 
 
-            string palavra = "moedaOrigem=real&moedaDestino=dolar";
-            string nomeArgumento = "moedaDestino";
+
+
+            string urlParametros = "http://www.bytebank.com/cambio?moedaOrigem=real&moedaDestino=dolar&valor=1500";
+            ExtratorValorDeArgumentosURL extratorDeValores = new ExtratorValorDeArgumentosURL(urlParametros);
+            
+            string valorMoedaOrigem = extratorDeValores.GetValor("moedaOrigem");
+            Console.WriteLine("Valor moedaOrigem: " + valorMoedaOrigem);
+            
+            string valor = extratorDeValores.GetValor("moedaDestino"); 
+            Console.WriteLine("Valor moedaDestino: " + valor);
+            
+            Console.WriteLine(extratorDeValores.GetValor("Valor"));
+            
+            Console.ReadLine();
+
+
+            
+
+
+
+
+
+            // testando o metodo remove
+            string testeRemocao = "primeiraParte&parteParaRemover";
+            int indiceEComercial = testeRemocao.IndexOf("&");
+            Console.WriteLine(testeRemocao.Remove(indiceEComercial, 4));
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+            string palavra = "moedaOrigem=real&moedaDestino&moedaDestino=dolar";
+            string nomeArgumento = "moedaDestino=";
 
             int indice = palavra.IndexOf(nomeArgumento);
             Console.WriteLine(indice);
@@ -42,15 +65,19 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine(palavra);
 
             Console.WriteLine(palavra.Substring(indice));
-            Console.WriteLine(palavra.Substring(indice + nomeArgumento.Length + 1));
+            Console.WriteLine(palavra.Substring(indice + nomeArgumento.Length));
 
             Console.ReadLine();
+
+
+
+
+
 
             string textoVazio = "fgdfd";
             String textoNulo = null;
             Console.WriteLine(string.IsNullOrEmpty(textoVazio));
             Console.WriteLine(string.IsNullOrEmpty(textoNulo));
-
 
             string url = "pagina?argumentos";
 
