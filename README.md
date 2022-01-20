@@ -14,5 +14,6 @@ Como ferramentas estou utilizando:
 - [x] [Parte 03](https://github.com/VivianeAntonio/curso-CSharp/tree/main/Parte-03/ByteBank)
 - [x] [Parte 04](https://github.com/VivianeAntonio/curso-CSharp/tree/main/Parte-04)
 - [x] [Parte 05](https://github.com/VivianeAntonio/curso-CSharp/tree/main/Parte-05)
-- [ ] [Parte 06]()
+- [ ] [Parte 06](https://github.com/VivianeAntonio/curso-CSharp/tree/main/Parte-06)
+- [ ] [Parte 07]()
 
