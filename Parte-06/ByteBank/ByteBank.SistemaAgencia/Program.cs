@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using ByteBank.Modelos;
 using ByteBank.Modelos.Funcionarios;
@@ -13,7 +14,42 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-            string urlParametros = "http://www.bytebank.com/cambio?moedaOrigem=real&moedaDestino=dolar&valor=1500";
+            // EXPRESSOES REGULARES REGEX
+            //string padrao = "[0123456789][0123456789][0123456789][0123456789][-][0123456789][0123456789][0123456789][0123456789]";
+            //string padrao = "[0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]";
+            //string padrao = "[0-9]{4,5}[-][0-9]{4}"; // quantificador utiliza {} antes do hifen ele busca de 4 a 5 caracteres
+            //string padrao = "[0-9]{4,5}[-]{0,1}[0-9]{4}"; // aceita com hifen e sem hifen
+            //string padrao = "[0-9]{4,5}-{0,1}[0-9]{4}";
+            string padrao = "[0-9]{4,5}-?[0-9]{4}";
+
+            string textoDeTeste = "Meu nome é Viviane, me ligue em 985479601";
+
+            Match resultado = Regex.Match(textoDeTeste, padrao);
+
+
+            Console.WriteLine(resultado.Value);
+            Console.ReadLine();
+
+
+
+
+
+            string urlTeste = "https://www.bytebank.com/cambio";
+            int indiceByteBank = urlTeste.IndexOf("https://www.bytebank.com");
+
+            Console.WriteLine(urlTeste.StartsWith("https://www.bytebank.com"));
+            Console.WriteLine(urlTeste.EndsWith("cambio/"));
+
+            Console.WriteLine(urlTeste.Contains("byteBank"));
+
+            Console.ReadLine();
+
+
+
+
+
+
+            string urlParametros = "https://www.bytebank.com/cambio?moedaOrigem=real&moedaDestino=dolar&valor=1500";
             ExtratorValorDeArgumentosURL extratorDeValores = new ExtratorValorDeArgumentosURL(urlParametros);
 
             string valorMoedaOrigem = extratorDeValores.GetValor("moedaOrigem");
@@ -25,7 +61,6 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine(extratorDeValores.GetValor("VALOR"));
 
             Console.ReadLine();
-
 
 
 
@@ -50,8 +85,6 @@ namespace ByteBank.SistemaAgencia
 
             Console.WriteLine(mensagemOrigem.IndexOf(termoBusca));
             Console.ReadLine();
-
-
 
 
 
